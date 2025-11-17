@@ -376,15 +376,15 @@ def menu():
         print("3. Restart the system")
         print("4. Exit\n")
 
-        op : int = int(input("Choose an option: "))
+        op : str = input("Choose an option: ")
 
-        if op == 1:
+        if op == "1":
             option_1_simulate_process()
-        elif op == 2:
+        elif op == "2":
             option_2_show_state()
-        elif op == 3:
+        elif op == "3":
             option_3_clear_system()
-        elif op == 4:
+        elif op == "4":
             print("Exit......")
             sys.exit(0)
         else:
